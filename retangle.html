@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Retangle</title>
+</head>
+<body>
+<canvas id="myCanvas" width="1368px" height="668px" style="border: 1px solid #d3d3d3 ;"></canvas>
+<script>
+    let Retangle = function (x,y,chieurong,chieudai) {
+        this.x = x;
+        this.y = y;
+        this.chieudai = chieudai;
+        this.chieurong = chieurong;
+
+        this.getX = function () {
+            return this.x;
+        }
+        this.getY = function () {
+            return this.y;
+        }
+        this.getChieuRong = function () {
+            return this.chieurong();
+        }
+        this.getChieuDai = function () {
+            return this.chieudai();
+        }
+        this.getArea = function () {
+            return x*y;
+        }
+        this.getPerimeter = function () {
+            return 2*(x+y);
+        }
+    }
+    function getRandomHex() {
+        return Math.floor(Math.random()*255);
+    }
+    function getRandomColor() {
+        var red = getRandomHex();
+        var green = getRandomHex();
+        var blue = getRandomHex();
+            return  "rgb("+red+","+green+","+blue+")";
+    }
+    function createRetangle() {
+        // var dai = parseInt(prompt("Nhap chieu dai hinh chu nhat: "));
+        // var rong = parseInt(prompt("Nhap chieu rong hinh chu nhat: "));
+        var ctx = document.getElementById("myCanvas").getContext("2d");
+        // var y = Math.random()*window.innerHeight;
+        // var x = Math.random()*window.innerWidth;
+        var color = getRandomColor();
+        var retangle = new Retangle(50,50,100,200);
+
+        ctx.beginPath();
+        ctx.fillRect(retangle.x,retangle.y,retangle.rong,retangle.chieudai,retangle.chieurong);
+        ctx.fillStyle = color;
+    }
+    createRetangle();
+</script>
+</body>
+</html>
