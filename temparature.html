@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>temparature</title>
+</head>
+<body>
+<script>
+    let Temparature = function (celsius) {
+        this.celsius = celsius;
+
+        this.getFahrenheit = function () {
+            return this.celsius * 9/5 + 32;
+        }
+        this.getKelvin = function () {
+            return this.celsius + 273;
+        }
+    }
+    function main() {
+        var temparature = new Temparature(25);
+        document.write("Độ F tương ứng là: " + temparature.getFahrenheit()+"<br/>");
+        document.write("Độ K tương ứng là: "+ temparature.getKelvin());
+    }
+    main();
+</script>
+</body>
+</html>
