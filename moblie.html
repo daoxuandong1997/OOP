@@ -2,9 +2,47 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Mobile</title>
 </head>
 <body>
-$END$
+<script>
+    let Mobile = function (battery, draft, inbox, sent,) {
+        this.battery =  battery;
+        this.draft = draft;
+        this.inbox = inbox;
+        this.sent = sent;
+
+        this.power = function () {
+            if (this.battery > 0){
+                this.status = !this.status;
+            }else this.status = false;
+        }
+        this.setDraft = function (x) {
+            if (this.status){
+                this.draft = x;
+                this.battery --;
+            }
+        }
+        this.sentMes = function (mobile) {
+            if (this.status) {
+                this.sent += this.draft;
+                mobile.inbox += this.draft;
+                this.draft = "";
+                this.battery--;
+            }
+        }
+        this.charge = function () {
+            this.battery = 100;
+        }
+        this.status = function () {
+            if (this.battery > 0){
+                return true;
+            }else return false;
+            console.log(this.status);
+        }
+    }
+    let nokia = new Mobile(2,"","","");
+    let Iphone = new Mobile(10,"","","");
+</script>
 </body>
 </html>
