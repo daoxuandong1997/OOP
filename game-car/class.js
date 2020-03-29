@@ -68,11 +68,20 @@ let Car = function (x,y,width,height) {
     }
 }
 
-let Obstacles = function(x,y, type){
+let Obstacles = function(x,y,type){
     this.x = x;
     this.y = y;
     this.type = type;
 
+    this.getType = function () {
+        return this.type;
+    }
+    this.getCenterX = function () {
+        return this.x + 25;
+    }
+    this.getCenterY = function () {
+        return this.y + 25;
+    }
     this.drawImage = function () {
         if(this.type === true) {
             context.drawImage(obsImage, this.x, this.y);
