@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let Apple = function (weight) {
+        this.weight = weight;
+        this.isEmpty = false;
+
+        this.getWeight = function () {
+            return this.weight;
+        };
+        this.decreaseApple = function () {
+            this.weight = this.weight - 1;
+        };
+    }
+    let Human = function (name,weight,gender) {
+        this.name = name;
+        this.weight = weight;
+        this.gender = gender;
+
+        this.setName = function (name) {
+            this.name = name;
+        }
+        this.getName = function () {
+            return this.name;
+        }
+        this.setWeight =function (weight) {
+            this.weight = weight;
+        }
+        this.getWeight = function () {
+            return this.weight;
+        }
+        this.isMale = function () {
+            if (this.gender == "Male")
+                return true;
+            return false;
+        }
+        this.setGender = function (gender) {
+            this.gender = gender;
+            if(this.gender == "Female"){
+                this.isMale = false;
+            }
+        }
+        this.checkApple = function (apple) {
+            return apple.getWeight();
+        }
+        this.eatApple = function (apple) {
+            apple.decreaseApple();
+        }
+        this.sayString = function () {
+            console.log("Xin chao toi la " + this.name);
+        }
+    }
+
+    let human1 = new Human("Adam",68,"Male");
+    let human2 = new Human("Eva",45,"Female");
+    let apple1 = new Apple(10);
+    let apple2 = new Apple(10);
+</script>
+</body>
+</html>

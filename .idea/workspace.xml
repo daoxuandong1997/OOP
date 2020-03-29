@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f47e462d-1ff0-4e96-b379-67b117c577cc" name="Default Changelist" comment="" />
+    <list default="true" id="f47e462d-1ff0-4e96-b379-67b117c577cc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/cat-rat.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game-car/class.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game-car/game-car.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game-car/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game-car/object.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/remote-tv.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/switch_lamp.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/bp2.0_demo-car-game/classes_declaration.js" beforeDir="false" afterPath="$PROJECT_DIR$/demo/bp2.0_demo-car-game/classes_declaration.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-car.html" beforeDir="false" afterPath="$PROJECT_DIR$/adam-eva.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lamp.html" beforeDir="false" afterPath="$PROJECT_DIR$/lamp.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/objects/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/objects/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/objects/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/objects/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/retangle.html" beforeDir="false" afterPath="$PROJECT_DIR$/retangle.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,47 +26,67 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaScript File" />
         <option value="HTML File" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1ZVmHaDAGSfKcj8m2376SiIkCNc" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Function/app-quan-ly-san-pham" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../condition/nobita.html" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunManager" selected="JavaScript Debug.retangle.html">
-    <configuration name="Circle.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/OOP/Circle.html" useBuiltInWebServerPort="true">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\OOP\game-car" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\OOP\game-car" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.game-car.html">
+    <configuration name="Game_Lai_Xe.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/OOP/demo/bp2.0_demo-car-game/Game_Lai_Xe.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="Funny-circle.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/OOP/Funny-circle.html" useBuiltInWebServerPort="true">
+    <configuration name="car-demo.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/OOP/demo/car-demo/car-demo.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="date.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/OOP/date.html" useBuiltInWebServerPort="true">
+    <configuration name="game-car.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/OOP/game-car/game-car.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="retangle.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/OOP/retangle.html" useBuiltInWebServerPort="true">
+    <configuration name="main.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/game-car/main.js" working-dir="$PROJECT_DIR$/game-car">
+      <method v="2" />
+    </configuration>
+    <configuration name="object.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/game-car/object.js" working-dir="$PROJECT_DIR$/game-car">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.retangle.html" />
-        <item itemvalue="JavaScript Debug.Funny-circle.html" />
-        <item itemvalue="JavaScript Debug.Circle.html" />
-        <item itemvalue="JavaScript Debug.date.html" />
+        <item itemvalue="JavaScript Debug.game-car.html" />
+        <item itemvalue="JavaScript Debug.car-demo.html" />
+        <item itemvalue="Node.js.main.js" />
+        <item itemvalue="JavaScript Debug.Game_Lai_Xe.html" />
+        <item itemvalue="Node.js.object.js" />
       </list>
     </recent_temporary>
   </component>
@@ -64,7 +100,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584932548319</updated>
-      <workItem from="1584932549647" duration="7433000" />
+      <workItem from="1584932549647" duration="10018000" />
+      <workItem from="1585011680954" duration="9144000" />
+      <workItem from="1585098653045" duration="7317000" />
+      <workItem from="1585185568904" duration="12173000" />
+      <workItem from="1585228917518" duration="93000" />
+      <workItem from="1585229028720" duration="7335000" />
+      <workItem from="1585236766076" duration="11042000" />
+      <workItem from="1585293499360" duration="4877000" />
+      <workItem from="1585361247982" duration="22037000" />
+      <workItem from="1585416063951" duration="1512000" />
+      <workItem from="1585451460128" duration="3935000" />
     </task>
     <servers />
   </component>
@@ -72,13 +118,41 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1584953332458">
+    <state x="361" y="71" key="#Images" timestamp="1585416409922">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1584953332458" />
-    <state x="425" y="187" key="run.anything.popup" timestamp="1584934319883">
+    <state x="361" y="71" key="#Images/0.0.1536.824@0.0.1536.824" timestamp="1585416409922" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1585363429827">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1584934319883" />
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1585363429827" />
+    <state width="254" height="198" key="RunAnythingAction_Filter_Popup" timestamp="1585236946088">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="254" height="198" key="RunAnythingAction_Filter_Popup/0.0.1536.824@0.0.1536.824" timestamp="1585236946088" />
+    <state x="277" y="55" key="SettingsEditor" timestamp="1585193946674">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="277" y="55" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1585193946674" />
+    <state x="490" y="154" width="540" height="524" key="StructurePopup" timestamp="1585234511709">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="490" y="154" width="540" height="524" key="StructurePopup/0.0.1536.824@0.0.1536.824" timestamp="1585234511709" />
+    <state x="456" y="259" width="705" height="306" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1585416394127">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="456" y="259" width="705" height="306" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1536.824@0.0.1536.824" timestamp="1585416394127" />
+    <state x="510" y="43" key="refactoring.ChangeSignatureDialog" timestamp="1585387513915">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="510" y="43" key="refactoring.ChangeSignatureDialog/0.0.1536.824@0.0.1536.824" timestamp="1585387513915" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1585238946030">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1585238946030" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1585453018560">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1585453018560" />
   </component>
 </project>

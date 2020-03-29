@@ -42,16 +42,16 @@
             return  "rgb("+red+","+green+","+blue+")";
     }
     function createRetangle() {
-        // var dai = parseInt(prompt("Nhap chieu dai hinh chu nhat: "));
-        // var rong = parseInt(prompt("Nhap chieu rong hinh chu nhat: "));
+        var dai = parseInt(prompt("Nhap chieu dai hinh chu nhat: "));
+        var rong = parseInt(prompt("Nhap chieu rong hinh chu nhat: "));
         var ctx = document.getElementById("myCanvas").getContext("2d");
-        // var y = Math.random()*window.innerHeight;
-        // var x = Math.random()*window.innerWidth;
+        var y = Math.random()*window.innerHeight;
+        var x = Math.random()*window.innerWidth;
         var color = getRandomColor();
-        var retangle = new Retangle(50,50,100,200);
+        var retangle = new Retangle(x,y,rong,dai);
 
         ctx.beginPath();
-        ctx.fillRect(retangle.x,retangle.y,retangle.rong,retangle.chieudai,retangle.chieurong);
+        ctx.fillRect(retangle.x, retangle.y, retangle.chieurong, retangle.chieudai);
         ctx.fillStyle = color;
     }
     createRetangle();

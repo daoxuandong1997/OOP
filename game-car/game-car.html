@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Car</title>
+</head>
+<body onload="docReady()">
+<button onclick="startGame()">Start</button>
+<canvas id="myCanvas" width="1500px" height="600px" style="background-color: #ffd890"/>
+<script src="class.js"></script>
+<script src="object.js"></script>
+<script src="main.js"></script>
+<script>
+function keyPressHandler(event) {
+    const KEY_LEFT = 37;
+    const KEY_RIGHT = 39;
+    const KEY_UP = 38;
+    const KEY_DOWN = 40;
+
+    switch (event.keyCode){
+        case KEY_LEFT:
+            moveDirection("left");
+            break;
+        case KEY_RIGHT:
+            moveDirection("right");
+            break;
+        case KEY_UP:
+            moveDirection("up");
+            break;
+        case KEY_DOWN :
+            moveDirection("down");
+            break;
+    }
+    if (event.ctrlKey){
+        car.boostSpeed = true;
+    }else car.boostSpeed = false;
+}
+
+function docReady() {
+    window.addEventListener('keydown',keyPressHandler);
+}
+</script>
+</body>
+</html>

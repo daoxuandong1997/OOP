@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+        let Remote = function (television) {
+            this.powerRemote = function () {
+                return television.power();
+            }
+            this.setChannelRemote = function () {
+                 television.setChannel();
+            }
+            this.adjustVolume = function () {
+                television.adjustVolume();
+            }
+    }
+    let Tivi = function (channel, volume, status ) {
+        this.channel = channel;
+        this.volume = volume;
+        this.status = false;
+
+        this.power = function(){
+            this.status =!this.status;
+            if(this.status){
+                this.channel = 0;
+                this.volume = 0;
+                console.log("Tv is on");
+            }else console.log("Tv is off");
+        }
+        this.setChannel = function (channel) {
+            if (this.status == true)
+                this.channel = channel;
+            else console.log("Tv is off")
+        }
+        this.adjustVolume = function (status) {
+            if (this.status == true) {
+                if (status == "add")
+                    this.volume++;
+                if (status == "minus")
+                    this.volume--;
+            }else console.log("Tv is off");
+        }
+    }
+    let remote1 = new Remote(samsung);
+    let samsung = new Tivi("kenh 0",10,false);
+
+</script>
+</body>
+</html>
